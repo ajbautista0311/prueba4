@@ -179,7 +179,8 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: white;background-image: linear-gradient(
+  color: white;
+  background-image: linear-gradient(
     rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)
   ),url(../img/bk4.jpg);
@@ -329,8 +330,11 @@ section.features .feature-item i {
 section.cta {
   max-height: 100vh;
   position: relative;
-  padding: 250px 0;
-  background-image: url("../img/bg-cta.jpg");
+  padding: 150px 0;
+  background-image:  linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),url("../img/bg-cta.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
